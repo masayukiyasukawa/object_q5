@@ -1,0 +1,2 @@
+class Honda < Dealer
+end
