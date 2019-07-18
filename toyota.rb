@@ -1,7 +1,7 @@
 class Toyota < Car
 
-  def acceleration_in_price
-    @acceleration = (@price * 0.011).to_i
-  end
+  def initialize(maker, price)
+    super(maker, price, price * 0.011)
+  end  
 
 end
