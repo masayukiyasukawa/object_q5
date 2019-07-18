@@ -1,4 +1,4 @@
-class Dealer < Car
+class Dealer
 
 	def self.total_count
 		@@total_count
