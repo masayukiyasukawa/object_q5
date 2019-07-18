@@ -1,14 +1,5 @@
 class Dealer < Car
 
-  @@total_price = 0
-  @@total_count = 0
-
-	def initialize(maker, price, acceleration)
-		super
-		@@total_price += price
-    @@total_count += 1
-	end
-
 	def self.total_count
 		@@total_count
 	end

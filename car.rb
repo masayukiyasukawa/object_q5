@@ -4,10 +4,15 @@ class Car
 
 	attr_accessor :speed, :maker, :price, :acceleration
 
+	@@total_price = 0
+	@@total_count = 0
+	
 	def initialize(maker, price, acceleration)
 		@maker = maker
 		@price = price
 		@acceleration = acceleration
+		@@total_price += price
+    @@total_count += 1
 	end
 
 	def accel

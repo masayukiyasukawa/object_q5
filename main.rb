@@ -6,7 +6,7 @@ require './ferrari'
 require './toyota'
 
 cars = []
-cars << Honda.new("Honda", rand(151..200), 1.8)
+cars << Honda.new("Honda", rand(151..200), 2)
 cars << Nissan.new("Nissan", rand(100..150), 2.5)
 cars << Ferrari.new("Ferrari", rand(300..400), 3)
 cars << toyota = Toyota.new("Toyota", rand(201..250), nil)

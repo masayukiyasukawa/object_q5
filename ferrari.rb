@@ -1,4 +1,4 @@
-class Ferrari < Dealer
+class Ferrari < Car
 
   def lift_up
     @car_height += 40

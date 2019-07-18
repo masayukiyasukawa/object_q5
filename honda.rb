@@ -1,2 +1,2 @@
-class Honda < Dealer
+class Honda < Car
 end
