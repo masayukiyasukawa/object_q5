@@ -15,7 +15,7 @@ toyota.acceleration_in_price
 
 results = []
 cars.each do |car|
-	results << car.driving_time
+	results << car.driving_result
 end
 
 rank = results.sort!

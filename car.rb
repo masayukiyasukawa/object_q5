@@ -27,7 +27,7 @@ class Car
 		@speed *= (1 - @crew * 0.05)
 	end
 
-	def driving_time
+	def driving_result
 		distance = 100000
 		time = distance / (self.accel - self.brake).to_i
 		formal_time = (Time.parse("1/1") + time).strftime("%M分%S秒")
